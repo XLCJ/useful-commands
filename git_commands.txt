@@ -7,14 +7,34 @@ git config --global user.email 'xian.li.photonics@gmail.com'
 
 git status
 
+# list of files/folder ignored during add and commit
+touch .gitignore
+vim .gitignore 		# --> add the file name, say .DS_Store, or folder, say /data
+
 git add <files>
 git add *.py 	# add only the py files
 git add .   	# add all files
 
-Git commit -m comments
-Git push
+git branch "branch_name" 	# create new branch
+git checkout "branch_name"	# switch to the branch_name branch
+
+git commit -m "comments"
+
+# to merge a branch, while at the master branch (git checkout master)
+git merge "branch_name"
+
+# to push to Github for the first time
+git remote add origin url_of_the_repository
+git push -u origin master
+
+# if we want to push again
+git push
+
+
 Git pull
 Git clone
 
 # create a file using command line
 touch stuff.py  
+
+git checkout master 		# switch back to the master branch
