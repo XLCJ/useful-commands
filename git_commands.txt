@@ -30,11 +30,9 @@ git push -u origin master
 # if we want to push again
 git push
 
+# if we want to pull the website version back to local
+git pull
 
-Git pull
-Git clone
-
-# create a file using command line
-touch stuff.py  
-
-git checkout master 		# switch back to the master branch
+# copy someone's repository
+cd folder
+git clone url_to_that_folder
