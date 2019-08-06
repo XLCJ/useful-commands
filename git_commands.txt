@@ -6,6 +6,7 @@ git config --global user.name 'XLi'
 git config --global user.email 'xian.li.photonics@gmail.com'
 
 git status
+git status -u 		# show all the files to be committed
 
 # list of files/folder ignored during add and commit
 touch .gitignore
