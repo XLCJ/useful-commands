@@ -1,0 +1,20 @@
+#git version
+git --version
+
+git init
+git config --global user.name 'XLi'
+git config --global user.email 'xian.li.photonics@gmail.com'
+
+git status
+
+git add <files>
+git add *.py 	# add only the py files
+git add .   	# add all files
+
+Git commit -m comments
+Git push
+Git pull
+Git clone
+
+# create a file using command line
+touch stuff.py  
