@@ -8,3 +8,5 @@ ORDER BY col1 DESC # sort by col1, ASC for ascending
 
 # export certain queries
 COPY (select col1,col2 from table LEFT JOIN etc) TO 'D:\MyDataOutput.CSV' DELIMITER ',' CSV HEADER;
+
+hahah
