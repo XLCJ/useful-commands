@@ -6,7 +6,17 @@ SELECT col1,col2 from "table name"
 WHERE col1 = 3 OR col2 = 'abc'
 ORDER BY col1 DESC # sort by col1, ASC for ascending
 
+# select from 3 to 8 rows
+SELECT * from "TABLE" OFFSET 3 LIMIT 5;
+SELECT * from TABLE OFFSET 3 FETCH FIRST 5 ROW ONLY
+
+# select rows based on value
+SELECT * FROM TABLE WHERE col_name IN (val1, val2, val3)
+SELECT * FROM TABLE WHERE col_name BETWEEN val1 AND val2
+SELECT * FROM TABLE WHERE col_name LIKE val
+
+#group by
+SELECT col1, COUNT(*) from table GROUP BY col1
+
 # export certain queries
 COPY (select col1,col2 from table LEFT JOIN etc) TO 'D:\MyDataOutput.CSV' DELIMITER ',' CSV HEADER;
-
-hahah
