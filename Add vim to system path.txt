@@ -1,0 +1,5 @@
+This PC --> properties --> advanced system settings --> environmental variables --> PATH (in the lower System variables window) --> edit --> new --> put gvim folder directory (note it's folder) to there
+
+# vimrc file, either one of the following: note on windows it's called _vimrc
+C:/Users/<ME>/_vimrc
+C:/Program Files/vim/_vimrc
