@@ -2,4 +2,11 @@ This PC --> properties --> advanced system settings --> environmental variables 
 
 # vimrc file, either one of the following: note on windows it's called _vimrc
 C:/Users/<ME>/_vimrc
-C:/Program Files/vim/_vimrc
+
+# change vim color scheme
+mkdir ~/.vim/colors
+Put the gruvbox.vim color scheme in there
+In vimrc, add 
+syntax on
+colorscheme gruvbox 
+
