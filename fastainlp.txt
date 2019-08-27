@@ -1,0 +1,14 @@
+https://github.com/fastai/course-nlp
+
+Language model: course 5, vocab difference
+Reduce learning rate and train a little more (after unfreezed training)
+data_lm.show_batch()
+Discriminative learning rate is crucial
+
+Semi-supervised learning
+We can fit more epochs without overfitting when we have more data
+Half precision training: .to_fp16(), may increase speed by 8-10 times
+
+Train both forward and backward LM and classifier and ensemble average the classifier prediction results
+
+GNU parallel to run anything parallel
