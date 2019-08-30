@@ -12,3 +12,5 @@ Half precision training: .to_fp16(), may increase speed by 8-10 times
 Train both forward and backward LM and classifier and ensemble average the classifier prediction results
 
 GNU parallel to run anything parallel
+
+SPProcessor == sentence piece processor
